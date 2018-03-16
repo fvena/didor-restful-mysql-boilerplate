@@ -1,0 +1,29 @@
+{
+  "name": "didor-restful-mysql-boilerplate",
+  "version": "0.0.1",
+  "description": "Express boilerplate for building RESTful APIs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fvena/didor-restful-mysql-boilerplate.git"
+  },
+  "keywords": [
+    "didor",
+    "restful",
+    "api",
+    "node",
+    "express",
+    "mysql",
+    "boilerplate",
+    "template"
+  ],
+  "author": "Francisco Vena Gualda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fvena/didor-restful-mysql-boilerplate/issues"
+  },
+  "homepage": "https://github.com/fvena/didor-restful-mysql-boilerplate#readme"
+}
