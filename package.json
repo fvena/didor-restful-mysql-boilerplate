@@ -1,10 +1,16 @@
 {
   "name": "didor-restful-mysql-boilerplate",
   "version": "0.0.1",
-  "description": "Express boilerplate for building RESTful APIs",
-  "main": "app.js",
+  "description": "Express boilerplate for building MySQL RESTful APIs",
+  "author": "Francisco Vena <fvena32@gmail.com>",
+  "main": "server/index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=7.6",
+    "npm": ">=5.7.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./server/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,15 +21,36 @@
     "restful",
     "api",
     "node",
+    "node.js",
     "express",
     "mysql",
+    "mocha",
+    "istanbul",
+    "nyc",
+    "eslint",
+    "Travis CI",
+    "coveralls",
+    "REST",
+    "API",
     "boilerplate",
-    "template"
+    "generator",
+    "starter project"
   ],
-  "author": "Francisco Vena Gualda",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fvena/didor-restful-mysql-boilerplate/issues"
   },
-  "homepage": "https://github.com/fvena/didor-restful-mysql-boilerplate#readme"
+  "homepage": "https://github.com/fvena/didor-restful-mysql-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-security": "^1.4.0",
+    "nodemon": "^1.17.2"
+  }
 }
