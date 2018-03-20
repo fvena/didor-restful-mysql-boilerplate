@@ -42,9 +42,20 @@
   "homepage": "https://github.com/fvena/didor-restful-mysql-boilerplate#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "dotenv-safe": "^5.0.1",
     "express": "^4.16.3",
+    "express-validation": "^1.0.2",
+    "glob": "^7.1.2",
+    "helmet": "^3.12.0",
+    "http-status": "^1.0.1",
+    "joi": "^13.1.2",
+    "method-override": "^2.3.10",
     "morgan": "^1.9.0",
-    "mysql": "^2.15.0"
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.2",
+    "npm": "^5.7.1",
+    "sequelize": "^4.37.1"
   },
   "devDependencies": {
     "eslint": "^4.19.0",
